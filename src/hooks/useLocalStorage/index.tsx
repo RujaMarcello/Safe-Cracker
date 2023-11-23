@@ -7,7 +7,7 @@ export type LocalStorageItem = {
   time: string;
 };
 
-
+//We do some changes
 const useLocalStorage = (): LocalStorageItem[] | null => {
   const [localStorageValues, setLocalStorageValues] = useState<LocalStorageItem[] | null>(null);
 
