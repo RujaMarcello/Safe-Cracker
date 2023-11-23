@@ -7,6 +7,7 @@ export type LocalStorageItem = {
   time: string;
 };
 
+//Test for KDU-4
 
 const useLocalStorage = (): LocalStorageItem[] | null => {
   const [localStorageValues, setLocalStorageValues] = useState<LocalStorageItem[] | null>(null);
